@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tickliquidity"
+version = "0.1.0"
+description = ""
+authors = ["oishun1112 <shunoikawa1112@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+web3 = "^6.10.0"
+eth-abi = "^4.2.1"
+matplotlib = "^3.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
